@@ -36,7 +36,7 @@ You should provide your own audio files for game sound effects. There are many t
 
 1. Get audio files
     - If you don't have such audio files, you can browse through opengameart.org and download some for free. 
-1. Move the audio files to `/jeopardy/audio/` directory.
+1. Move the audio files to the `/jeopardy/audio/` directory.
 1. Rename the files
     - Open `/jeopardy/setup.js` with a text editor.
     - Throughout `setup.js` you should see lines like this:
@@ -49,7 +49,8 @@ You should provide your own audio files for game sound effects. There are many t
       * OR rename the file names in the setup.js file, e.g. 
         - if `downloaded-click.mp3` is the audio file name, edit the code.
            ```
-           let clickSound = new Audio('./audio/downloaded-click.mp3');           ```
+           let clickSound = new Audio('./audio/downloaded-click.mp3');
+           ```
 
 ## II. Customize the Game
 
@@ -88,12 +89,15 @@ You can play however you want. This is how I play.
 ## I. Setup the Classroom and the Game
 * Double-click on 'jeopardy.html' to open the game.
 * Divide the classroom into three to five teams.
+* Keep a ledger of earned money on the side
 * Explain the rules of the game in *general terms*.
   - **win condition:** get the most money by the end of the game
   - **game mechanics:**
     - a student choose questions from the game board
     - if a student answers correctly, their team gets the money
+      - to make the 'correct answer' sound, press the green button at the bottom right-hand corner of the screen 
     - if a student answers incorrecty, another team can 'steal' the question
+      - to make the 'incorrect answer' sound, press the red button at the buttom right-hand corner of the screen
       - (**note**: the 'steal' mechanic is an important mechanic, as it will keep the students of all teams interested even when it's not their team's turn) 
 * Choose a game or have the students choose a game.
 * Employ a mechanism to determine the order in which teams will play (who's first, second, third, etc.).

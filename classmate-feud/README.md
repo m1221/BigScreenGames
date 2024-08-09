@@ -48,7 +48,8 @@ You should provide your own audio files for game sound effects. There are three 
       * OR rename the file names in the setup.js file, e.g. 
         - if `downloaded-click.mp3` is the audio file name, edit the code.
            ```
-           let clickSound = new Audio('./audio/downloaded-click.mp3');           ```
+           let clickSound = new Audio('./audio/downloaded-click.mp3');
+           ```
 
 ## II. Customizing Categories
 
