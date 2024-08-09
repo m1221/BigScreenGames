@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jeopardy Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+  <div id="game-screens">
+    <div class="screens" id="start-screen">
+        <div id="start-screen-panel">
+            <h1>Jeopardy</h1>
+            <div id="game-init-buttons"></div>
+        </div>
+        <label class="switch dswitch">
+            <input id="double-switch" type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+
+    <div class="screens" id="game-board-screen">
+        <p id="game-board-title">Jeopardy</p>
+        <div id="game-board">
+        <!-- CAT1 -->
+        <div class="category">
+            <h2>Category 1</h2>
+            <!--
+            <div class="question-card">
+                <p>Question 1</p>
+            </div>
+            -->
+            </div>
+
+        <!-- CAT2 -->
+        <div class="category">
+            <h2>Category 2</h2>
+        </div>
+
+        <!-- CAT3 -->
+        <div class="category">
+            <h2>Category 3</h2>
+        </div>
+        
+        <!-- CAT4 -->
+        <div class="category">
+            <h2>Category 4</h2>
+        </div>
+
+        <!-- CAT5 -->
+        <div class="category">
+            <h2>Category 5</h2>
+        </div>
+        </div>
+    </div>
+
+    <div class="screens" id="daily-double-screen">
+        <div id="daily-double-panel">
+            <p>Daily Double!</p>
+        </div>
+        <div class="button" id="continue-to-prompt-button">Continue</div>
+    </div>
+
+    <div class="screens" id="prompt-screen">
+        <div class="text-panel">
+            <p class="readable" id="prompt"> hello i'm the question screen</p>
+        </div>
+        <div class="button" id="correct-answer-button" onclick="PlayCorrectSound()"></div>
+        <div class="button" id="wrong-answer-button" onclick="PlayWrongSound()"></div>
+        <div class="button" id="reveal-answer-button">Reveal Answer</div>
+    </div>
+
+    <div class="screens" id="answer-screen">
+        <div class="text-panel">
+            <p class="readable" id="answer"> hello i'm the question screen</p>
+        </div>
+        <div class="button" id="return-button">Return to Game Board</div>
+    </div>
+
+    <div id="end-screen">
+        <!-- filler -->
+        <h1> end screen</h1>
+    </div>
+  </div>
+  <!--script order-execution is important!-->
+  <script src="classes.js"></script>
+  <script src="data.js"></script>
+  <script src="setupGames.js"></script>
+  <script src="setup.js"></script>
+</body>
+</html>
