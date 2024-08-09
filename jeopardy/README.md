@@ -36,9 +36,9 @@ You should provide your own audio files for game sound effects. There are many t
 
 1. Get audio files
     - If you don't have such audio files, you can browse through opengameart.org and download some for free. 
-1. Move the audio files to `/jeopardy/jeopardy/audio/` directory.
+1. Move the audio files to `/jeopardy/audio/` directory.
 1. Rename the files
-    - Open `/jeopardy/jeopardy/setup.js` with a text editor.
+    - Open `/jeopardy/setup.js` with a text editor.
     - Throughout `setup.js` you should see lines like this:
         ```
         let powerup = new Audio('./audio/daily-double.wav');

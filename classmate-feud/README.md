@@ -34,9 +34,9 @@ You should provide your own audio files for game sound effects. There are three 
 
 1. Get audio files
     - If you don't have such audio files, you can browse through opengameart.org and download some for free. 
-1. Create the `classmate-feud/audio/` directory and move the audio files there.
+1. Move your audio files to the `/classmate-feud/audio/` directory
 1. Rename the files
-    - Open `classmate-feud/setup.js` with a text editor and look at line 11. 
+    - Open `/classmate-feud/setup.js` with a text editor and look at line 11. 
     - You should see something like this:
         ```
         let clickSound = new Audio('./audio/click.wav');
@@ -44,7 +44,7 @@ You should provide your own audio files for game sound effects. There are three 
         let wrongSound = new Audio('./audio/buzz-sound.wav');
         ```
     - You can either:
-      * rename your file names in the directory to match the file names in setup.js 
+      * rename your audio files to match the file names in setup.js 
       * OR rename the file names in the setup.js file, e.g. 
         - if `downloaded-click.mp3` is the audio file name, edit the code.
            ```
