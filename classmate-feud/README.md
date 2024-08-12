@@ -2,6 +2,11 @@
 
 # 1. About **'Classmate Feud'**
 
+<figure>
+  <img src="../readme-img/classmade-feud-game-board.png" width="700px" height="300px" alt="Jeopardy Menu">
+  <figcaption><i>A Classmate Feud game board.</i></figcaption>
+</figure>
+
 I created this game when I was an oral English teacher for high school students in China. It's based off the popular American TV game show "Family Feud." In family feud, two teams compete against each other to guess the answers given in public surveys. 
 
 Unless you are very familiar with the game, I recommend you watch at least part of an episode before continuing.

@@ -1,5 +1,10 @@
 # 1. About **'Jeopardy'**
 
+<figure>
+  <img src="../readme-img/jeopardy-game-board.png" width="700px" height="300px" alt="Jeopardy Menu">
+  <figcaption><i>A jeopardy game board.</i></figcaption>
+</figure>
+
 I created this game when I was an oral English teacher for high school students in China. It's based off the popular American TV game show "Jeopardy." In Jeopardy, contestants compete each other to see who can win the most money. Money is won by answering trivia questions the fastest.
 
 When playing this game with a large class, you can divide the class into teams.
@@ -99,6 +104,7 @@ You can play however you want. This is how I play.
     - if a student answers incorrecty, another team can 'steal' the question
       - to make the 'incorrect answer' sound, press the red button at the buttom right-hand corner of the screen
       - (**note**: the 'steal' mechanic is an important mechanic, as it will keep the students of all teams interested even when it's not their team's turn) 
+      - <figure><img src="../readme-img/jeopardy-question.png" width="700px" height="300px" alt="Jeopardy Menu"><figcaption><i>A jeopardy question.</i></figcaption></figure>
 * Choose a game or have the students choose a game.
 * Employ a mechanism to determine the order in which teams will play (who's first, second, third, etc.).
   - I usually just go from one side of the classroom to the other.

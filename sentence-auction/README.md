@@ -1,5 +1,10 @@
 # 1. About **'Sentence Auction'**
 
+<figure>
+  <img src="../readme-img/sentence-auction-wrong-answer.png" width="700px" height="300px">
+  <figcaption><i>The revelation of a grammatically incorrect sentence.</i></figcaption>
+</figure>
+
 I created this game when I was an oral English teacher for high school students in China. 
 
 Sentence Auction:
