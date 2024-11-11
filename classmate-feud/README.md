@@ -3,7 +3,7 @@
 # 1. About **'Classmate Feud'**
 
 <figure>
-  <img src="../readme-img/classmade-feud-game-board.png" width="700px" height="300px" alt="Jeopardy Menu">
+  <img src="../00_img-readme/classmate-feud-game-board.png" width="700px" height="300px" alt="Jeopardy Menu">
   <figcaption><i>A Classmate Feud game board.</i></figcaption>
 </figure>
 
