@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+button {
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 10px;
+  margin: 10px;
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  cursor: pointer;
+}
+
+button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -38,14 +53,15 @@ body {
 }
 
 #sentence-band {
-  color: aqua;
-
   height: 350px;
   width: 1200px;
   background: black;
   margin-top: -175px;
   margin-left: -600px;
-
+  padding: 25px;
+  border-radius: 10px;
+  border-style: groove;
+  border-color: blanchedalmond;
 }
 
 #header-text{
