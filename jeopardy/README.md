@@ -1,7 +1,7 @@
 # 1. About **'Jeopardy'**
 
 <figure>
-  <img src="../00_img-readme/jeopardy-game-board.png" width="700px" height="300px" alt="Jeopardy Menu">
+  <img src="../00_img-readme/jeopardy-game-board.jpg" width="700px" height="300px" alt="Jeopardy Menu">
   <figcaption><i>A jeopardy game board.</i></figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ You can play however you want. This is how I play.
     - if a student answers incorrecty, another team can 'steal' the question
       - to make the 'incorrect answer' sound, press the red button at the buttom right-hand corner of the screen
       - (**note**: the 'steal' mechanic is an important mechanic, as it will keep the students of all teams interested even when it's not their team's turn) 
-      - <figure><img src="../00_img-readme/jeopardy-question.png" width="700px" height="300px" alt="Jeopardy Menu"><figcaption><i>A jeopardy question.</i></figcaption></figure>
+      - <figure><img src="../00_img-readme/jeopardy-question.jpg" width="700px" height="300px" alt="Jeopardy Menu"><figcaption><i>A jeopardy question.</i></figcaption></figure>
 * Choose a game or have the students choose a game.
 * Employ a mechanism to determine the order in which teams will play (who's first, second, third, etc.).
   - I usually just go from one side of the classroom to the other.

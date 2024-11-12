@@ -1,7 +1,7 @@
 # 1. About **'Sentence Auction'**
 
 <figure>
-  <img src="../00_img-readme/sentence-auction-wrong-answer.png" width="700px" height="300px">
+  <img src="../00_img-readme/sentence-auction-wrong-answer.jpg" width="700px" height="300px">
   <figcaption><i>The revelation of a grammatically incorrect sentence.</i></figcaption>
 </figure>
 
