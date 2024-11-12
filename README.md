@@ -6,7 +6,10 @@ This repository is a collection of smart board games I've made while teaching En
 <img src="00_img-readme/jeopardy-menu.jpg" alt="jeopardy" width="600" height="auto"/>
 
 ## 2. Classmate Feud
-<img src="00_img-readme/classmate-feud-menu.jpg" alt="sentence auction" width="600" height="auto"/>
+<img src="00_img-readme/classmate-feud-menu.jpg" alt="classmate feud" width="600" height="auto"/>
 
 ## 3. Sentence Auction
 <img src="00_img-readme/sentence-auction-right-answer.jpg" alt="sentence auction" width="600" height="auto"/>
+
+## 4. Wu Zi Qi
+<img src="00_img-readme/wu-zi-qi_example.jpg" alt="wu zi qi" width="600" height="auto"/>
