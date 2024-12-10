@@ -1,9 +1,6 @@
-// classes.js creates the classes to be used in the game
 // CLASSES: Game, Category, and Card
 
-// Game("name", [cat1, cat2, ...])
-// Game.name
-// Game.categories = [...]
+// new Game("game name", [])
 class Game {
     constructor(name, categories){
         this.name = name;
@@ -11,13 +8,11 @@ class Game {
     }
 }
 
-// Category("category name")
-// Category.name
-// Category.cards = {level: card}
+// Category("category name", "rawData")
 class Category {
     constructor(name, rawData){
         this.name = name;
-        this.cards = this.MakeCards(rawData);
+        this.cards = this.MakeCards(rawData); // see data.js for rawData format
     }
 
     MakeCards(rawData){
@@ -42,8 +37,6 @@ class Category {
 }
 
 // Card("prompt", "answer")
-// Card.prompt
-// Card.answer
 class Card {
     constructor(prompt, answer){
         this.prompt = prompt;

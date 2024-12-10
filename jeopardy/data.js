@@ -238,28 +238,56 @@ var rawClothes =
 5; This garment is worn over other clothes to protect them from spills and stains while cooking.; What is an apron?
 `;
 
-// the code below MUST be at the end
-var categories = new Map();
-categories.set('American History', rawAmericanHistory);
-categories.set('Sports', rawSports);
-categories.set('Basketball History', rawBasketballHistory);
-categories.set('Physics', rawPhysics);
-categories.set('Physics History', rawPhysicsHistory);
-categories.set('Ancient Civilizations', rawAncientCivilizations);
-categories.set('Math', rawMath);
-categories.set('Inventions', rawInventions);
-categories.set('Inventors', rawInventors);
-categories.set('Countries', rawCountries);
-categories.set('European Countries', rawEuropeanCountries,);
-categories.set('Capitals',rawCapitals);
-categories.set('Geographical Features', rawGeographicalFeatures);
-categories.set('Authors',rawAuthors);
-categories.set('Artists',rawArtists);
-categories.set('Music',rawMusic);
-categories.set('Idioms', rawIdioms);
-categories.set('Classical Musicians', rawClassicalMusicians);
-categories.set('Weather', rawWeather);
-categories.set('Famous Books', rawFamousBooks);
-categories.set('Animals', rawAnimals);
-categories.set('Food', rawFood);
-categories.set('Clothes', rawClothes);
+var rawSchoolPhysics = 
+`
+1; On earth, what is the acceleration due to gravity?; 9.8m/s^2
+2; What is Newton’s law of gravitation?; F=G(m1*m2)/r^2
+3; An object is dropped. It falls for 19.6 meters. For how much time did it fall?; 2 seconds
+4; Two ice skaters weigh 60kg and 80kg. They push off each other. The 60kg ice-skater moves at 2m/s. What is the v of the 80kg one?; -1.5m/s
+5; Two identical cars, traveling at 100 km/hr, crash head on. The force on each car is the same as hitting a wall at what speed?; 100km/hr
+`;
+
+var rawSchoolHistory = 
+`
+1; When was the Chinese Communist Party formed?; 1921
+2; What did the Anglo-French Allied Forces burn down in 1860 in Beijing?; Yuan Ming Yuan
+3; In September of 1939, Poland was invaded by Nazi Germany from the west and what other nation from the east?; The Soviet Union
+4; In what year did the Qin Dynasty unify China?; 221 BC
+5; In 1987, someone said “Mr. Gorbachev, tear down this wall!”. What is the name of the wall?; The Berlin Wall
+`;
+
+var rawSchoolBiology = 
+`
+1; What is the smallest unit of life?; The cell
+2; How many chromosomes do humans have?; 23 pairs OR 46
+3; What reptiles are known as “living fossils”?; Chinese Alligators
+4; This three-letter acronym is used to make DNA and RNA.; ATP
+5; In Chinese forests you may seen green growth on what side of tree trunks?; the North side
+`;
+
+var rawSchoolChinese = 
+`
+1; These two Tang dynasty poets were good friends.; Li Bai and Du Fu
+2; This female writer was a revolutionary that was beheaded by the Qing Dynasty.; Qiu Jin
+3; What is the relationship between Chinese society and the countryside?; The countryside is the foundation of Chinese Society
+4; Chinese language has changed mostly in sound, vocabulary, and ...?; Grammar
+5; What was the name of Luo Guanzhong at birth?; Luo Ben
+`;
+
+var rawSchoolMath = 
+`
+1; Jenny writes 5 different numbers. Each number > 0. She adds them and gets 16. What will she get if she multiplies them?; 1, 2, 3, 4, 6 -> 144
+2; If Bill can build 1 house in 12 weeks and Charlie can build 1 house in 8 weeks, how long will it take them to build 10 houses?; 48 weeks
+3; Computers only understand 1s and 0s. If 001 -> 1 and 010 -> 2, 011 -> 3, what is 101?; 5
+4; If you flip a coin 3 times, what is the probability you will get at least 2 heads?; 50%
+5; An ice-cream shop has 5 different flavors. You want to get two scoops of ice cream. How many different types of ice cream can you get?; 15 because (n+r-1)! / r!(n-1)!
+`;
+
+var rawSchoolChemistry = 
+`
+1; You shine a light on a glass of milk and a glass of water. What is the difference in how the light looks?; You can see the light in the glass of milk.
+2; About how many molecules are in 90mL of water?; 90/18 -> 5 mols
+3; Describe what is happening with the e- in the equation H2 + F2 -> 2 HF.; H are losing electrons and F are gaining electrons.
+4; You put red litmus paper into a solution with a very low [H+]. What color will the paper turn?; Blue
+5; Balance the equation: a H2S04 + b HI -> x H2S + y I2 + z H20?; 1 H2S04 + 8 HI -> 1 H2S + 4 I2 + 4 H20
+`;
