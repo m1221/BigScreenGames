@@ -13,3 +13,6 @@ This repository is a collection of smart board games I've made while teaching En
 
 ## 4. Wu Zi Qi
 <img src="00_img-readme/wu-zi-qi_example.jpg" alt="wu zi qi" width="600" height="auto"/>
+
+## 5. Flipcard Memory Game
+<img src="00_img-readme/flipcard-memory-game.jpg" alt="flipcard memory game" width="600" height="auto"/>
